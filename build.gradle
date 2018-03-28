@@ -1,0 +1,20 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+group = 'es.atrujillo.decode.samples'
+version = '0.0.1-SNAPSHOT'
+mainClassName = "es.atrujillo.decode.samples.DemoStepBuilder"
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
